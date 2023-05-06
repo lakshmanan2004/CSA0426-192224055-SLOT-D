@@ -60,8 +60,8 @@ void scan(int requests[], int numRequests, int head, int direction) {
             currentTrack = requests[i];
         }
     }
-
-    printf("Average head movement: %.2f\n", (float)totalHeadMovement / numRequests);
+    printf("\ntotal head movements=%d",totalHeadMovement);
+    printf("\nAverage head movement: %.2f\n", (float)totalHeadMovement / numRequests);
 }
 
 int main() {
